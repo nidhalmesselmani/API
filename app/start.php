@@ -9,6 +9,7 @@ require  'database.php';
 
 $app = new \Slim\Slim();
 $app->add(new \CorsSlim\CorsSlim());
+
 $app->db = function(){
   return new Capsule;
 };
