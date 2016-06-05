@@ -1,0 +1,12 @@
+{
+    "autoload":{
+        "psr-4":{
+            "REST\\":"app/REST"
+        }
+    },
+    "require": {
+        "slim/slim": "^2.6",
+        "palanik/corsslim": "*",
+        "illuminate/database": "~5.0"
+    }
+}
